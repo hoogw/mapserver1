@@ -62,7 +62,7 @@ define([
 
             {
                 type: 'dynamic',
-                url: 'http://maps.lacity.org/arcgis/rest/services/External/sidewalkrepairprogram/MapServer',
+                url: 'https://maps.lacity.org/arcgis/rest/services/External/sidewalkrepairprogram/MapServer',
                 title: 'Side Walk Repair',
                 
 
