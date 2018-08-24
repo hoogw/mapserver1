@@ -27,7 +27,7 @@ define([
         // map options, passed to map constructor. see: https://developers.arcgis.com/javascript/jsapi/map-amd.html#map1
         mapOptions: {
             basemap: 'streets',
-            center: [-118.142841, 34.145795],
+            center: [-118.246521, 34.049039],
             zoom: 12,
             sliderStyle: 'small'
         },
@@ -54,11 +54,10 @@ define([
 
 
             {
-                //type: 'dynamic',
-                type: 'feature',
-                //url: 'https://services2.arcgis.com/zNjnZafDYCAJAbN0/ArcGIS/rest/services',
-                url: 'https://services2.arcgis.com/zNjnZafDYCAJAbN0/ArcGIS/rest/services/Zoning/FeatureServer/0',
-                title: 'test ',
+                type: 'dynamic',
+                //type: 'feature',
+                url: 'https://maps.lacity.org/lahub/rest/services//MapServer',
+                title: 'Los Angeles ',
                 
 
                 layerControlLayerInfos: {
