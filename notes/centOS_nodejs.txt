@@ -1,0 +1,39 @@
+
+install node.js 
+
+putty login 104.238.125.233 
+
+
+
+
+cd ~
+
+
+wget https://nodejs.org/dist/v10.7.0/node-v10.7.0-linux-x64.tar.xz
+
+
+tar xvf node-v10.7.0-linux-x64.tar.xz
+
+mv node-v10.7.0-linux-x64 nodejs
+
+
+mkdir ~/bin
+
+
+
+cp nodejs/bin/node ~/bin
+
+cd ~/bin
+
+ln -s ../nodejs/lib/node_modules/npm/bin/npm-cli.js npm
+
+node --version
+
+npm --version
+
+
+
+
+cd /home/transparentgov/public_html/arcgis_viewer
+pwd  (show current path) 
+

@@ -1,0 +1,185 @@
+
+
+ cd D:/ufd
+ 
+ cd C:/Users/engcid299/node/template/login_angular2
+ 
+ cd C:/Apache24/htdocs/glassgov1
+ cd C:/Apache24/htdocs/cleargov1
+ cd C:/Apache24/htdocs/mapserver1
+ 
+ cd C:/Users/engcid299/node/arcgis_viewer
+ 
+ 
+git commit -a -m ""
+git push origin master
+
+
+
+
+**********************************************************************
+
+cd /home/transparentgov/public_html/arcgis_viewer
+
+
+
+
+
+delete folder XXXX
+sudo rm -rf XXXXX
+
+
+************************************************************************
+//-A, --all             add changes from all tracked and untracked files
+
+
+
+
+$ git add -A
+
+$ git commit -m "login"
+
+==================
+
+add .gitignore file to directory
+https://github.com/github/gitignore
+
+git init
+git add -A
+git commit -a -m "login"
+
+git remote add origin https://github.com/hoogw/arcgis_viewer.git
+git remote add origin https://github.com/hoogw/mapserver1.git
+
+git push origin master
+
+=====================================
+
+
+cd C:\Users\engcid299\node\arcgis_viewer
+code .
+nodemon --exec npm start
+
+
+
+
+linux
+
+
+run node:
+
+cd  /home/hoogw2000/public_html/arcgis_viewer/
+pm2 start npm -- start
+
+
+
+kill node:
+http://pm2.keymetrics.io
+
+pm2 delete 0
+
+pm2 stop 0
+
+pm2 list
+
+//  //    nohup nodemon --exec npm start
+
+
+
+
+
+
+
+C:\Users\hoogw>nvm use 9.6.1
+Now using node v9.6.1 (64-bit)
+
+C:\Users\hoogw>nvm list
+
+  * 9.6.1 (Currently using 64-bit executable)
+    0.10.36
+
+=================================
+
+git bash:
+
+cd C:/Apache24/htdocs/cleargov1
+
+
+
+
+
+
+=============
+
+
+
+
+
+who is client?
+
+
+This time, at california only
+already submit
+
+
+$80/hr w2
+us citizen
+prefer email
+
+
+
+
+$75/hr w2
+us citizen
+prefer email
+
+
+
+p
+prefer email
+
+
+
+who is client?
+
+
+Full Name: joe hu
+
+Current Location: costa mesa, ca
+Work Authorization:  us citizen
+Availability for Interview (Phone/in-person): immediate
+Availability to Start: 2 weeks
+relocate: yes
+
+Last 4/5 (SSN):  1023
+MMDD (DOB):  2/5
+cell: 310-710-6501
+email: huguowen@gmail.com
+
+
+
+================================
+mysqldump.exe --user=root --password=aaaa1111  --host=localhost --port=3306 --result-file="C:\backup\mysql\mysqldump.sql" --default-character-set=utf8 --single-transaction=TRUE --all-databases
+
+mysqldump.exe --user=root --password=aaaa1111  --host=localhost --port=3306 --result-file="C:\Users\engcid299\OneDrive\current_PC_backup\mysql\dump.sql" --default-character-set=utf8 --single-transaction=TRUE --databases "cleargov1" "glassgov1" "arcgis_viewer"
+
+
+
+
+---------------
+
+
+https://104.238.125.233/cleargov1/
+
+https://104.238.125.233/glassgov1/
+
+http://104.238.125.233/cleargov1/
+
+http://104.238.125.233/glassgov1/
+
+192.169.199.29:10
+
+
+
+
+/home/hoogw/certbot-auto renew
