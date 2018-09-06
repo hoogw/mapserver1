@@ -21,6 +21,9 @@ http://ms1.transparentgov.net/?config=Los_Angeles_navigateLA
 
 
 
+Los Angeles BOE Permits MapServer
+http://ms1.transparentgov.net/?config=Los_Angeles_BOE_Permits
+
 
 
 Los Angeles Permits MapServer
@@ -47,129 +50,224 @@ http://ms1.transparentgov.net/?config=Los_Angeles_Boundaries
 
 
 
-Los Angeles  MapServer
+Los Angeles Survey Information mapserver
+http://ms1.transparentgov.net/?config=Los_Angeles_Survey_Information
+
+
+
+
+
+Los Angeles Special Areas
+http://ms1.transparentgov.net/?config=Los_Angeles_Special_Areas
+
+
+
+
+Los Angeles Street Information mapserver
+http://ms1.transparentgov.net/?config=Los_Angeles_Street_Information
+
+
+
+
+Los Angeles Stormwater Information mapserver
+http://ms1.transparentgov.net/?config=Los_Angeles_Stormwater_Information
+
+
+
+
+
+Los Angeles Sewer Information mapserver
+http://ms1.transparentgov.net/?config=Los_Angeles_Sewer_Information
+
+
+
+
+
+Los Angeles Recreation Parks
+http://ms1.transparentgov.net/?config=Los_Angeles_Recreation_and_Parks_Department
+
+
+
+
+
+
+
+Los Angeles Public Way Reservations
+http://ms1.transparentgov.net/?config=Los_Angeles_Public_Way_Reservations
+
+
+
+
+
+Los Angeles Businesses Active mapserver
+http://ms1.transparentgov.net/?config=Los_Angeles_Office_of_Finance
+
+
+
+
+
+
+
+Los Angeles Metro Bus Rail
+http://ms1.transparentgov.net/?config=Los_Angeles_Metro_Bus_and_Rail
+
+
+
+
+
+Los Angeles Mayors Office
+http://ms1.transparentgov.net/?config=Los_Angeles_Mayors_Office
+
+
+
+
+
+
+
+Los Angeles LAUSD Schools
+http://ms1.transparentgov.net/?config=Los_Angeles_LAUSD_Schools
+
+
+
+
+
+Los Angeles LARIAC4 high resolution imagery
+http://ms1.transparentgov.net/?config=Los_Angeles_LARIAC4
+
+
+
+
+
+Los Angeles Police LAPD
+http://ms1.transparentgov.net/?config=Los_Angeles_LAPD
+
+
+
+Los Angeles Landbase Information
+http://ms1.transparentgov.net/?config=Los_Angeles_Landbase_Information
+
+
+
+
+
+Los Angeles Landbase Information WFS
+http://ms1.transparentgov.net/?config=Los_Angeles_Landbase_Information_WFS
+
+
+
+
+Los Angeles Transportation DOT
+http://ms1.transparentgov.net/?config=Los_Angeles_LADOT
+
+
+
+
+
+Los Angeles 
 http://ms1.transparentgov.net/?config=Los_Angeles_
 
 
 
 
-Los Angeles  MapServer
+
+Los Angeles 
 http://ms1.transparentgov.net/?config=Los_Angeles_
 
 
 
 
-Los Angeles  MapServer
-http://ms1.transparentgov.net/?config=Los_Angeles_
+Los Angeles Housing
+http://ms1.transparentgov.net/?config=Los_Angeles_Housing
 
 
 
 
-Los Angeles  MapServer
-http://ms1.transparentgov.net/?config=Los_Angeles_
 
 
+Los Angeles Geotechnical Hydrological
+http://ms1.transparentgov.net/?config=Los_Angeles_Geotechnical_and_Hydrological
 
 
-Los Angeles  MapServer
-http://ms1.transparentgov.net/?config=Los_Angeles_
 
 
 
+Los Angeles City Facilities
+http://ms1.transparentgov.net/?config=Los_Angeles_Facilities
 
-Los Angeles  MapServer
-http://ms1.transparentgov.net/?config=Los_Angeles_
 
 
 
+Los Angeles Fire
+http://ms1.transparentgov.net/?config=Los_Angeles_Fire
 
-Los Angeles  MapServer
-http://ms1.transparentgov.net/?config=Los_Angeles_
 
 
 
 
-Los Angeles  MapServer
-http://ms1.transparentgov.net/?config=Los_Angeles_
 
 
+Los Angeles City Planning
+http://ms1.transparentgov.net/?config=Los_Angeles_City_Planning
 
 
 
 
+Los Angeles Census 2010
 
-Los Angeles  MapServer
-http://ms1.transparentgov.net/?config=Los_Angeles_
+http://ms1.transparentgov.net/?config=Los_Angeles_Census_2010
 
 
 
+Los Angeles Street Services MapServer
 
-Los Angeles  MapServer
+http://ms1.transparentgov.net/?config=Los_Angeles_Street_Services
 
 
 
+Los Angeles Street Lights
+http://ms1.transparentgov.net/?config=Los_Angeles_Street_Lights
 
 
-Los Angeles  MapServer
 
-
-
-
-
-Los Angeles  MapServer
-
-
-
-
-
-Los Angeles  MapServer
-
-
-
-
-
-Los Angeles  MapServer
-
-
-
-
-
-Los Angeles  MapServer
-
-
-
-
-
-Los Angeles  MapServer
-
-
-
-
-
-Los Angeles  MapServer
-
-
-
-
-
-Los Angeles  MapServer
-
-
-
-
-
-Los Angeles  MapServer
-
-
-
-
-
-Los Angeles  MapServer
-
-
+************************************************************
 
 Seattle City GIS MapServer
 http://ms1.transparentgov.net/?config=Seattle_City_GIS
+
+
+Seattle Speed Limit
+http://ms1.transparentgov.net/?config=Seattle_SpeedLimit
+
+
+
+Seattle Addresses
+http://ms1.transparentgov.net/?config=Seattle_Addresses
+
+
+Seattle Zoning Land Use Parcel
+http://ms1.transparentgov.net/?config=Seattle_Zoning
+
+
+
+
+Seattle Sewer Drainage
+http://ms1.transparentgov.net/?config=Seattle_Sewer_Drainage
+
+
+
+Seattle Water
+http://ms1.transparentgov.net/?config=Seattle_Water
+
+
+Seattle Critical Areas by Ordinance
+http://ms1.transparentgov.net/?config=Seattle_Critical_Areas_Ordinance
+
+
+
+#################################################################
+
+
+
 
 
 

@@ -27,8 +27,8 @@ define([
         // map options, passed to map constructor. see: https://developers.arcgis.com/javascript/jsapi/map-amd.html#map1
         mapOptions: {
             basemap: 'streets',
-            center: [-118.246521, 34.049039],
-            zoom: 12,
+            center: [-122.335788, 47.612589],
+            zoom: 17,
             sliderStyle: 'small'
         },
 
@@ -56,8 +56,8 @@ define([
             {
                 type: 'dynamic',
                 //type: 'feature',
-                url: 'https://maps.lacity.org/lahub/rest/services//MapServer',
-                title: 'Los Angeles ',
+                url: 'https://gisrevprxy.seattle.gov/arcgis/rest/services/SPU_EXT/SP_DSO_ZONINGLU/MapServer',
+                title: 'Seattle_Zoning ',
                 
 
                 layerControlLayerInfos: {

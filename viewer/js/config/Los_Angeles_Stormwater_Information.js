@@ -28,7 +28,7 @@ define([
         mapOptions: {
             basemap: 'streets',
             center: [-118.246521, 34.049039],
-            zoom: 12,
+            zoom: 16,
             sliderStyle: 'small'
         },
 
@@ -56,8 +56,8 @@ define([
             {
                 type: 'dynamic',
                 //type: 'feature',
-                url: 'https://maps.lacity.org/lahub/rest/services//MapServer',
-                title: 'Los Angeles ',
+                url: 'https://maps.lacity.org/lahub/rest/services/Stormwater_Information/MapServer',
+                title: 'Los Angeles Stormwater_Information',
                 
 
                 layerControlLayerInfos: {

@@ -28,7 +28,7 @@ define([
         mapOptions: {
             basemap: 'streets',
             center: [-118.246521, 34.049039],
-            zoom: 12,
+            zoom: 13,
             sliderStyle: 'small'
         },
 
@@ -56,8 +56,8 @@ define([
             {
                 type: 'dynamic',
                 //type: 'feature',
-                url: 'https://maps.lacity.org/lahub/rest/services//MapServer',
-                title: 'Los Angeles ',
+                url: 'https://maps.lacity.org/lahub/rest/services/Metro_Bus_and_Rail/MapServer',
+                title: 'Los Angeles Metro_Bus_and_Rail',
                 
 
                 layerControlLayerInfos: {
