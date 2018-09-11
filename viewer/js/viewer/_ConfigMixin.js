@@ -56,19 +56,70 @@ define([
             var file = 'config/' + this.defaultConfig,
                 s = window.location.search,
                 q = s.match(/config=([^&]*)/i);
+            
+            
             if (q && q.length > 0) {
                 file = q[1];
                 if (file.indexOf('/') < 0) {
                     file = 'config/' + file;
                 }
             }
+            
+            
+            console.log(file);
+            
+            
             require([file], function (config) {
-                returnDeferred.resolve(config);
-            });
+                 
+                 
+                // ******** both  ********* [1]  ********  [2] ************ works ************
+
+                    //----------** [1]  ** ---- dynamic loading url and center_zoom, center_lat, center_long ----------
+
+                       config.set_center_zoom(18);
+                       console.log(config.get_center_zoom());
+
+                       console.log(config.get_mapOptions());
+                       
+                      //-------End  --** [1]  ** ---------  dynamic loading url and center_zoom, center_lat, center_long ----------
+               
+               
+               
+
+                    returnDeferred.resolve(config);
+
+
+
+
+            });      // require  
+            
+            
+            
+             
+            
+            
+            
             return returnDeferred;
         },
 
         initConfigSuccess: function (config) {
+            
+                
+            // ******** both  ********* [1]  ********  [2] ************ works ************
+            
+              
+               
+              //----------**  [2] **------- dynamic loading url and center_zoom, center_lat, center_long ----------
+               
+              // config.set_center_zoom();
+              // console.log(config.get_mapOptions());
+               
+              //------------End  ----**  [2] **----  dynamic loading url and center_zoom, center_lat, center_long ----------
+               
+            
+            
+            
+            
             this.config = config;
             if (config.isDebug) {
                 window.app = this; //dev only
@@ -79,6 +130,12 @@ define([
                 current: config.defaultMapClickMode,
                 defaultMode: config.defaultMapClickMode
             };
+            
+            
+            
+            
+            
+            
         },
 
         initConfigError: function (err) {

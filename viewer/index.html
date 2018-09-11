@@ -45,6 +45,13 @@
         <script type="text/javascript">
             var s = window.location.search, q = s.match(/locale=([^&]*)/i);
             var locale = (q && q.length > 0) ? q[1] : null;
+            
+            /*      url: .......&locale=fr
+                console.log(s);
+                console.log(q);
+                console.log(locale);
+            */
+            
             window.dojoConfig = {
                 locale: locale,
                 async: true

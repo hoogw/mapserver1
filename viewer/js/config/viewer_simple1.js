@@ -16,21 +16,52 @@ define([
     GoogleMapsLoader.KEY = 'xxxxxxxxxxxxx';
 
     
+    var default_center_zoom = 12;
+    
+    var  ___mapOption =  {
+            basemap: 'streets',
+            center: [-77.036420, 38.907292],
+            zoom: default_center_zoom,
+            sliderStyle: 'small'
+        };
     
 
     return {
+        
+        
+        //-------------- dynamic loading url and center_zoom, center_lat, center_long ----------
+        
+        set_center_zoom: function(___zoom){
+          
+            ___mapOption.zoom = ___zoom;
+            
+        },
+        
+        
+        get_center_zoom: function(){
+            return ___mapOption.zoom;
+        },
+        
+        get_mapOptions: function(){
+            return ___mapOption;
+        },
+        
+        
+        //--------------------End  ------  dynamic loading url and center_zoom, center_lat, center_long ----------
+        
+        
+        
+        
+        
+        
+        
         // used for debugging your app
         isDebug: true,
 
         //default mapClick mode, mapClickMode lets widgets know what mode the map is in to avoid multipult map click actions from taking place (ie identify while drawing).
         defaultMapClickMode: 'identify',
         // map options, passed to map constructor. see: https://developers.arcgis.com/javascript/jsapi/map-amd.html#map1
-        mapOptions: {
-            basemap: 'streets',
-            center: [-118.246521, 34.049039],
-            zoom: 13,
-            sliderStyle: 'small'
-        },
+        mapOptions: ___mapOption,
 
         
 
@@ -56,8 +87,8 @@ define([
             {
                 type: 'dynamic',
                 //type: 'feature',
-                url: 'https://maps.lacity.org/lahub/rest/services/Census_2010/MapServer',
-                title: 'Los Angeles Census_2010',
+                url: 'https://maps2.dcgis.dc.gov/dcgis/rest/services/Zoning/MapServer',
+                title: 'Washington DC Zoning',
                 
                 options: {
                 

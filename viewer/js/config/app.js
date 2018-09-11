@@ -9,10 +9,21 @@
             }, {
                 name: 'gis',
                 location: path + 'js/gis'
-            }, {
+            }, 
+            
+            
+            
+            {
                 name: 'config',
                 location: path + 'js/config'
-            }, {
+            }, 
+            
+            
+       
+            
+            
+            
+            {
                 name: 'proj4js',
                 location: '//cdnjs.cloudflare.com/ajax/libs/proj4js/2.3.15'
             }, {

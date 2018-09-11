@@ -1,5 +1,52 @@
 
 
+
+
+who is client?
+
+
+This time, at california only
+already submit
+
+
+$80/hr w2
+us citizen
+prefer email
+
+
+
+
+$75/hr w2
+us citizen
+prefer email
+
+
+
+p
+prefer email
+
+
+
+who is client?
+
+
+Full Name: joe hu
+
+Current Location: costa mesa, ca
+Work Authorization:  us citizen
+Availability for Interview (Phone/in-person): immediate
+Availability to Start: 2 weeks
+relocate: yes
+
+Last 4/5 (SSN):  1023
+MMDD (DOB):  2/5
+cell: 310-710-6501
+email: huguowen@gmail.com
+
+
+
+============================
+
  cd D:/ufd
  
  cd C:/Users/engcid299/node/template/login_angular2
@@ -114,47 +161,6 @@ cd C:/Apache24/htdocs/cleargov1
 
 
 
-
-who is client?
-
-
-This time, at california only
-already submit
-
-
-$80/hr w2
-us citizen
-prefer email
-
-
-
-
-$75/hr w2
-us citizen
-prefer email
-
-
-
-p
-prefer email
-
-
-
-who is client?
-
-
-Full Name: joe hu
-
-Current Location: costa mesa, ca
-Work Authorization:  us citizen
-Availability for Interview (Phone/in-person): immediate
-Availability to Start: 2 weeks
-relocate: yes
-
-Last 4/5 (SSN):  1023
-MMDD (DOB):  2/5
-cell: 310-710-6501
-email: huguowen@gmail.com
 
 
 

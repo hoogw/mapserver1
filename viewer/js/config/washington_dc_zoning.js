@@ -16,6 +16,9 @@ define([
     GoogleMapsLoader.KEY = 'xxxxxxxxxxxxx';
 
     
+   
+    
+    
     
 
     return {
@@ -27,8 +30,8 @@ define([
         // map options, passed to map constructor. see: https://developers.arcgis.com/javascript/jsapi/map-amd.html#map1
         mapOptions: {
             basemap: 'streets',
-            center: [-118.246521, 34.049039],
-            zoom: 13,
+            center: [-77.036420, 38.907292],
+            zoom: 12,
             sliderStyle: 'small'
         },
 
@@ -56,8 +59,8 @@ define([
             {
                 type: 'dynamic',
                 //type: 'feature',
-                url: 'https://maps.lacity.org/lahub/rest/services/Census_2010/MapServer',
-                title: 'Los Angeles Census_2010',
+                url: 'https://maps2.dcgis.dc.gov/dcgis/rest/services/Zoning/MapServer',
+                title: 'Washington DC Zoning',
                 
                 options: {
                 
