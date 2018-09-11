@@ -1,3 +1,35 @@
+/*
+ * sample url
+ * 
+   http://localhost:10/mapserver1/viewer/?config=viewer_simple1&url=https://maps2.dcgis.dc.gov/dcgis/rest/services/Zoning/MapServer&title=Washington_DC_Zoning&zoom=14&lat=38.917292&long=-77.036420
+
+   
+    http://localhost:10/mapserver1/viewer/?config=viewer_simple1
+        &url=https://maps2.dcgis.dc.gov/dcgis/rest/services/Zoning/MapServer
+        &title=Washington_DC_Zoning
+        &zoom=14
+        &lat=38.917292
+        &long=-77.036420
+
+
+         available parameters:
+            
+            zoom;
+            lat;
+            long;
+            basemap;
+            
+            type;
+            url;
+            title;
+            opacity;
+
+
+
+ * 
+ */
+
+
 define([
     'esri/units',
     'esri/geometry/Extent',
@@ -17,13 +49,64 @@ define([
 
     
     var default_center_zoom = 12;
+    var default_center_lat = 38.907292;
+    var default_center_long = -77.036420;
+    var default_basemap = 'streets';
+    
     
     var  ___mapOption =  {
-            basemap: 'streets',
-            center: [-77.036420, 38.907292],
+            basemap: default_basemap,
+            center: [default_center_long, default_center_lat],
             zoom: default_center_zoom,
             sliderStyle: 'small'
         };
+    
+    
+    
+    
+    var default_type = 'dynamic';
+    
+    //var default_url = 'https://maps2.dcgis.dc.gov/dcgis/rest/services/Zoning/MapServer';
+    var default_url = '';
+    
+    //var default_title = 'Washington DC Zoning';
+    var default_title = '';
+    
+    var default_opacity = 0.5;
+    
+    
+    var ___operational_layer = {
+                type: default_type,
+                //type: 'feature',
+                url: default_url,
+                title: default_title,
+                
+                options: {
+                
+                opacity: default_opacity
+                },
+                
+                
+                
+                layerControlLayerInfos: {
+            
+                    // layer control options
+                    noLegend: false,
+                    noZoom: false,
+                    swipe: true,
+                    swipeScope: true,
+                    expanded: true,
+                    sublayers: true,
+                    metadataUrl: false,
+                    allSublayerToggles	: true,
+                   
+                }
+
+
+
+            };
+    
+    
     
 
     return {
@@ -38,6 +121,52 @@ define([
         },
         
         
+        set_center_long_lat: function(___long, ___lat ){
+          
+            ___mapOption.center = [___long, ___lat ];
+            
+        },
+        
+        
+        
+         set_basemap: function(___basemap ){
+          
+            ___mapOption.basemap = ___basemap;
+            
+        },
+        
+        
+        
+        set_type: function(___type ){
+          
+            ___operational_layer.type = ___type;
+            
+        },
+        
+        
+        set_url: function(___url ){
+          
+            ___operational_layer.url = ___url;
+            
+        },
+        
+        set_title: function(___title ){
+          
+            ___operational_layer.title = ___title;
+            
+        },
+        
+        
+        
+        set_opacity: function(___opacity ){
+          
+            ___operational_layer.options.opacity = ___opacity;
+            
+        },
+        
+        
+        
+        
         get_center_zoom: function(){
             return ___mapOption.zoom;
         },
@@ -46,7 +175,9 @@ define([
             return ___mapOption;
         },
         
-        
+        get_operationalLayers: function(){
+            return ___operational_layer;
+        },
         //--------------------End  ------  dynamic loading url and center_zoom, center_lat, center_long ----------
         
         
@@ -83,42 +214,7 @@ define([
         operationalLayers: 
         [
 
-
-            {
-                type: 'dynamic',
-                //type: 'feature',
-                url: 'https://maps2.dcgis.dc.gov/dcgis/rest/services/Zoning/MapServer',
-                title: 'Washington DC Zoning',
-                
-                options: {
-                
-                opacity: 0.5
-                },
-                
-                
-                
-                layerControlLayerInfos: {
-            
-                    // layer control options
-                    noLegend: false,
-                    noZoom: false,
-                    swipe: true,
-                    swipeScope: true,
-                    expanded: true,
-                    sublayers: true,
-                    metadataUrl: false,
-                    allSublayerToggles	: true,
-                   
-                }
-
-
-
-            }, 
-    
-
-
-
-
+              ___operational_layer
 
         ],
 

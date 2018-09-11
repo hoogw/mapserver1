@@ -69,18 +69,155 @@ define([
             console.log(file);
             
             
+            // ---------- dynamic parameters ----------
+            
+            
+            
+            
+            var ___zoom;
+            var ___lat;
+            var ___long;
+            var ___basemap;
+            
+            var ___type;
+            var ___url;
+            var ___title;
+            var ___opacity;
+            
+            
+            /*
+             *  if (value) { 
+             *     
+             *  }
+             * 
+             * will evaluate to true if value is not:
+
+                    null
+                    undefined
+                    NaN
+                    empty string ("")
+                    false
+                    0
+             * 
+             * 
+             * 
+             */
+            
+            
+            if ( location.search.match(/zoom=([^&]*)/i) )
+            {
+                 ___zoom = location.search.match(/zoom=([^&]*)/i)[1];
+             }
+            
+            if ( location.search.match(/lat=([^&]*)/i) )
+            {
+               ___lat = location.search.match(/lat=([^&]*)/i)[1];
+            }
+            
+            if (location.search.match(/long=([^&]*)/i))
+            {
+                ___long = location.search.match(/long=([^&]*)/i)[1];
+            }
+            
+            if (location.search.match(/basemap=([^&]*)/i))
+            {
+                ___basemap = location.search.match(/basemap=([^&]*)/i)[1];
+            }
+            
+            if (location.search.match(/type=([^&]*)/i))
+            {
+                ___type = location.search.match(/type=([^&]*)/i)[1];
+            }
+            
+           if (location.search.match(/url=([^&]*)/i))
+            {
+                ___url = location.search.match(/url=([^&]*)/i)[1];
+            }
+            
+            
+            if (location.search.match(/title=([^&]*)/i))
+            {
+                ___title = location.search.match(/title=([^&]*)/i)[1];
+            }
+            
+            if (location.search.match(/opacity=([^&]*)/i))
+            {
+                ___opacity = location.search.match(/opacity=([^&]*)/i)[1];
+            }
+            
+            
+            //console.log(location.search.match(/zoom=([^&]*)/i)[0]);   //    'zoom=17'
+            //console.log(location.search.match(/zoom=([^&]*)/i)[1]);   //     '17'
+            console.log(___zoom); 
+            console.log(___lat); 
+            console.log(___long); 
+            console.log(___basemap); 
+            
+            console.log(___type); 
+            console.log(___url); 
+            console.log(___title); 
+            console.log(___opacity); 
+            
+            
+            
+            
+            // --------   End   ------- dynamic parameters ----------
+            
+            
+            
+            
+            
+            
             require([file], function (config) {
                  
                  
                 // ******** both  ********* [1]  ********  [2] ************ works ************
 
                     //----------** [1]  ** ---- dynamic loading url and center_zoom, center_lat, center_long ----------
-
-                       config.set_center_zoom(18);
-                       console.log(config.get_center_zoom());
+                       
+                
+                       //console.log(___zoom);
+                       
+                       if (___zoom && ___zoom.length > 0)
+                       {
+                        config.set_center_zoom(___zoom);
+                       }
+                       
+                       if (___long && ___long.length > 0 && ___lat && ___lat.length > 0)
+                       {
+                         config.set_center_long_lat(___long, ___lat);
+                       }  
+                       
+                       if (___basemap && ___basemap.length > 0)
+                       {
+                           config.set_basemap(___basemap);
+                       }
+                       
+                       
+                       if (___type && ___type.length > 0)
+                       {
+                           config.set_type(___type);
+                       }
+                       
+                       if (___url && ___url.length > 0)
+                       {
+                         config.set_url(___url);
+                       }  
+                       
+                       if (___title && ___title.length > 0)
+                       {
+                          config.set_title(___title);
+                       }
+                       
+                       if (___opacity && ___opacity.length > 0)
+                       {
+                           config.set_opacity(___opacity);
+                        }
+                       
+                       //console.log(config.get_center_zoom());
 
                        console.log(config.get_mapOptions());
-                       
+                       console.log(config.get_operationalLayers());
                       //-------End  --** [1]  ** ---------  dynamic loading url and center_zoom, center_lat, center_long ----------
                
                

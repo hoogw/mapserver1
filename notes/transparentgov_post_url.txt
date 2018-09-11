@@ -1639,14 +1639,16 @@ http://localhost:3000/index/default?layer=Zip%20Codes&url_id=25&path=/PD/Governm
  
  
  
-Washington DC Zoning
+Washington DC Zoning  
  
 http://agv1.transparentgov.net/googlemaps/default?layer=DCGIS.ZoningPly&url_id=28&path=/Zoning/MapServer
- http://localhost:3200/googlemaps/default?layer=DCGIS.ZoningPly&url_id=28&path=/Zoning/MapServer
+ https://localhost:3200/googlemaps/default?layer=DCGIS.ZoningPly&url_id=28&path=/Zoning/MapServer
  
  
  
-http://agv1.transparentgov.net/googlemaps/default?layer=DCGIS.ZoningPly&url=https://maps2.dcgis.dc.gov/dcgis/rest/services&path=/Zoning/MapServer
- http://localhost:3200/googlemaps/default?layer=DCGIS.ZoningPly&url=https://maps2.dcgis.dc.gov/dcgis/rest/services&path=/Zoning/MapServer
+http://agv1.transparentgov.net/googlemaps/default?layer=DCGIS.ZoningPly&url=https://maps2.dcgis.dc.gov/dcgis/rest/services&path=/Zoning/MapServer&center_lat=38.907292&center_long=-77.03642000000002&center_zoom=17
+ https://localhost:3200/googlemaps/default?layer=DCGIS.ZoningPly&url=https://maps2.dcgis.dc.gov/dcgis/rest/services&path=/Zoning/MapServer&center_lat=38.907292&center_long=-77.03642000000002&center_zoom=17
  
  
+ 
+ http://localhost:10/mapserver1/viewer/?url=https://maps2.dcgis.dc.gov/dcgis/rest/services/Zoning/MapServer&config=viewer_simple1
