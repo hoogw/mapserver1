@@ -1,37 +1,107 @@
 
 
+
+
+for service page without checkbox
+http://localhost:10/json2tree/demo.html
+
+
+
+for service page with checkbox
+http://localhost:10/json2tree/checkboxs.html
+
+
+
+
+
+
+
+
+
+dynamic CMV
+
+http://localhost:10/mapserver1/viewer/?config=viewer_simple1&url=https://maps2.dcgis.dc.gov/dcgis/rest/services/Zoning/MapServer&title=Washington_DC_Zoning&zoom=14&lat=38.917292&long=-77.036420
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://localhost:3200/googlemaps2/default?layer_id=0&url_id=28&path=%2FZoning%2FMapServer&center_lat=38.885139190946774&center_long=-76.99973141861449&center_zoom=16
+
+
+
+https://localhost:3200/googlemaps2/default?layer_id=1%2C2%2C342&url_id=1&center_lat=33.94667352422373&center_long=-118.39958858488035&center_zoom=16
+
+
+
+
+https://localhost:3200/googlemaps2/default?layer_id=0%2C1&url_id=6&path=%2FSidewalk_Repair%2FMapServer&center_lat=34.04275504429444&center_long=-118.24021178870538&center_zoom=19
+
+
+
+https://localhost:3200/googlemaps2/default?layer_id=0%2C5%2C6&url_id=6&path=%2FLandbase_Information%2FMapServer&center_lat=33.94788122848549&center_long=-118.39181495295185&center_zoom=16
+
+
+http://localhost:10/json2tree/demo.html
+
+
+
+
+
+
 --------------------------------------------------
-http://localhost:3000/googlemaps/default?layer=Parcels&url_id=1
+https://localhost:3200/googlemaps/default?layer=Parcels&url_id=1
+
+https://localhost:3200/googlemaps/default?layer_id=340&url_id=1
+
+
+https://localhost:3200/googlemaps2/default?layer_id=0%2C340&url_id=1
+
+
+https://localhost:3200/googlemaps2/default?layer_id=0&url_id=28&path=/Zoning/MapServer
+
 				
 https://localhost:3200/googlemaps/default?layer=Zoning%20(Generalized)&url_id=14
 
-http://localhost:3000/socrata/googlemaps/default?url_id=11&layer_id=yv23-pmwf&layer=Building_Safty_Permit&value={%22location_field%22:%22location_1%22}
+https://localhost:3200/socrata/googlemaps/default?url_id=11&layer_id=yv23-pmwf&layer=Building_Safty_Permit&value={%22location_field%22:%22location_1%22}
+
+
+
+https://localhost:3200/googlemaps2/default?layer=Parcels&url_id=1
+https://localhost:3200/googlemaps2/default?layer=Parcels%20(Outline)&url_id=1
+
+https://localhost:3200/googlemaps2/default?layer_id=0,340&url_id=1
+
+
+
+https://localhost:3200/bingmaps/default?layer=Zoning+%28Generalized%29&url_id=14
+
+
+https://localhost:3200/heremaps/default?layer=Zoning+%28Generalized%29&url_id=14
+
+https://localhost:3200/leaflet/default?layer=Zoning+%28Generalized%29&url_id=14
+
+https://localhost:3200/openlayers/default?layer=Zoning+%28Generalized%29&url_id=14
 
 
 
 
 
+https://localhost:3200/socrata/bingmaps/default?url_id=10&layer_id=rqjp-prb2&layer=Trade_Permits&value={"location_field":"location_1"}
 
-http://localhost:3000/bingmaps/default?layer=Zoning+%28Generalized%29&url_id=14
+https://localhost:3200/socrata/heremaps/default?url_id=10&layer_id=rqjp-prb2&layer=Trade_Permits&value={"location_field":"location_1"}
 
+https://localhost:3200/socrata/leaflet/default?url_id=10&layer_id=rqjp-prb2&layer=Trade_Permits&value={"location_field":"location_1"}
 
-http://localhost:3000/heremaps/default?layer=Zoning+%28Generalized%29&url_id=14
-
-http://localhost:3000/leaflet/default?layer=Zoning+%28Generalized%29&url_id=14
-
-http://localhost:3000/openlayers/default?layer=Zoning+%28Generalized%29&url_id=14
-
-
-
-
-
-http://localhost:3000/socrata/bingmaps/default?url_id=10&layer_id=rqjp-prb2&layer=Trade_Permits&value={"location_field":"location_1"}
-
-http://localhost:3000/socrata/heremaps/default?url_id=10&layer_id=rqjp-prb2&layer=Trade_Permits&value={"location_field":"location_1"}
-
-http://localhost:3000/socrata/leaflet/default?url_id=10&layer_id=rqjp-prb2&layer=Trade_Permits&value={"location_field":"location_1"}
-
-http://localhost:3000/socrata/openlayers/default?url_id=10&layer_id=rqjp-prb2&layer=Trade_Permits&value={"location_field":"location_1"}
+https://localhost:3200/socrata/openlayers/default?url_id=10&layer_id=rqjp-prb2&layer=Trade_Permits&value={"location_field":"location_1"}
 
 
 
@@ -45,6 +115,105 @@ https://maps2.dcgis.dc.gov/dcgis/rest/services?f=json
 
 
 
+https://ms1.transparentgov.net/?config=washington_dc_zoning
+https://localhost:10/mapserver1/viewer/?config=washington_dc_zoning
+
+
+
+https://localhost:10/mapserver1/viewer/?config=viewer_simple1&url=https://maps2.dcgis.dc.gov/dcgis/rest/services/Zoning/MapServer&title=Washington_DC_Zoning&zoom=14&lat=38.917292&long=-77.036420
+
+
+https://sampleserver3.arcgisonline.com/ArcGIS/rest/services/Petroleum/KSFields/FeatureServer/0/
+https://sampleserver1.arcgisonline.com/ArcGIS/rest/services/Specialty/ESRI_StateCityHighway_USA/MapServer
+
+
+
+https://tile.openstreetmap.org/10/261/380.png
+
+https://tile.openstreetmap.org/${z}/${x}/${y}.png 
+
+
+
+
+https://www.maptiler.org/google-maps-coordinates-tile-bounds-projection/
+chicago google tile number zoom : 10    coord.x = 262   coord.y = 380      
+
+== Tile Boundaries ==
+WGS84 datum (longitude/latitude):
+-87.890625 41.77131167976406
+-87.5390625 42.032974332441405
+Spherical Mercator (meters):
+-9783939.620502561 5126784.361143343
+-9744803.86202055 5165920.119625352
+
+
+sample arcgis rest export : 
+export?bbox=SW_long, SW_lat, NE_long, NE_lat
+https://sampleserver1.arcgisonline.com/ArcGIS/rest/services/Specialty/ESRI_StateCityHighway_USA/MapServer/export?bbox=-87.890625,41.77131167976406,-87.5390625,42.032974332441405
+https://sampleserver1.arcgisonline.com/ArcGIS/rest/services/Specialty/ESRI_StateCityHighway_USA/MapServer/export?bbox=-127.8,15.4,-63.5,60.5
+
+https://sampleserver1.arcgisonline.com/ArcGIS/rest/services/Specialty/ESRI_StateCityHighway_USA/MapServer/export?bbox=-127.8%2C15.4%2C-63.5%2C60.5&bboxSR=&layers=&layerdefs=&size=&imageSR=&format=png&transparent=true&dpi=&time=&layerTimeOptions=&f=image
+
+
+
+var x = coord.x;
+var y = coord.y;
+var z = zoom;
+
+var NW_long = tile2long(x,z);
+
+var SW_long = tile2long(x,z);
+var SW_lat =  tile2lat(y+1,z);
+
+var NE_long = tile2long(x+1,z);
+var NE_lat =  tile2lat(y,z);
+
+var export_bbox = SW_long + ',' + SW_lat + ',' + NE_long + ',' + NE_lat;
+
+console.log (export_bbox);
+
+var url_param = '&bboxSR=&layers=&layerdefs=&size=&imageSR=&format=png&transparent=false&dpi=&time=&layerTimeOptions=&f=image&size=256,256';
+
+var tile_url = 'https://sampleserver1.arcgisonline.com/ArcGIS/rest/services/Specialty/ESRI_StateCityHighway_USA/MapServer/export?bbox=' + export_bbox + url_param
+
+
+
+
+
+
+los angeles parcels export/bbox
+
+center: {lat: 34.049039, lng: -118.246521}
+
+layers=show:2,
+
+var url_param = '&bboxSR=&layers=&layerdefs=&size=&imageSR=&format=png&transparent=false&dpi=&time=&layerTimeOptions=&f=image&size=256,256&BBOXSR=3857&IMAGESR=3857&DPI=99';
+
+var url_layers = '&layers=show:341';
+
+var tile_url = 'https://maps.lacity.org/arcgis/rest/services/Mapping/NavigateLA/MapServer/export?bbox=' + export_bbox + url_param + url_layers
+
+https://maps.lacity.org/arcgis/rest/services/Mapping/NavigateLA/MapServer
+
+
+
+
+wahsington
+
+var root_url = 'https://maps2.dcgis.dc.gov/dcgis/rest/services/Zoning/MapServer/export?bbox=';
+
+var tile_url = root_url + export_bbox + url_param + url_layers;
+
+center: {lat: 38.907292, lng: -77.036420}
+
+
+
+openlayers sample:
+
+var root_url = 'https://sampleserver1.arcgisonline.com/ArcGIS/rest/services/Specialty/ESRI_StateCityHighway_USA/MapServer/export?bbox=';
+
+
+https://sampleserver1.arcgisonline.com/ArcGIS/rest/services/Specialty/ESRI_StateCityHighway_USA/MapServer/export?F=image&FORMAT=PNG32&TRANSPARENT=true&SIZE=1219%2C441&BBOX=-12059817.132200422%2C4199311.266554899%2C-9349221.191543592%2C5179928.829991865&BBOXSR=3857&IMAGESR=3857&DPI=99
 
 
 
@@ -52,27 +221,60 @@ https://maps2.dcgis.dc.gov/dcgis/rest/services?f=json
 
 
 
+
+
+
+los angeles parcels permit
+
+https://localhost:3200/googlemaps2/default?layer_id=0%2C340&url_id=1
+
+https://localhost:3200/googlemaps2/default?layer_id=0,6&url_id=6&path=/Landbase_Information/MapServer
+https://localhost:3200/googlemaps2/default?layer=Parcels&url_id=6&path=/Landbase_Information/MapServer
+
+
+https://localhost:3200/googlemaps2/default?layer_id=0,1&url_id=6&path=/Sidewalk_Repair/MapServer
+
+
+https://maps.lacity.org/lahub/rest/services/Landbase_Information/MapServer/dynamicLayer/1?layer={"id":101,"source":{"type":"mapLayer","mapLayerId":3}}&f=pjson
+
+
+washington dc /   zoning
+https://localhost:3200/googlemaps2/default?layer_id=0&url_id=28&path=/Zoning/MapServer
+
+
+
+
+
+https://maps2.dcgis.dc.gov/dcgis/rest/services/Zoning/MapServer/dynamicLayer/query?layer={"source":{"type":"mapLayer","mapLayerId":1}}&returnGeometry=true&outSR=4326&f=pjson&outFields=*&geometryType=esriGeometryEnvelope&geometry={%22xmin%22%20:%20-77.03026204929742,%20%22ymin%22%20:%2038.91540021091422,%20%22xmax%22%20:%20-77.02826204929741,%20%22ymax%22%20:%2038.91740021091422,%22spatialReference%22%20:%20{%22wkid%22%20:%204326}}
+
+
+https://maps2.dcgis.dc.gov/dcgis/rest/services/Zoning/MapServer/layers?dynamicLayers=[{"id":101,"source":{"type":"mapLayer","mapLayerId":0}}]&f=pjson
+
+https://maps.lacity.org/arcgis/rest/services/Mapping/NavigateLA/MapServer/layers
+
+
+https://maps.lacity.org/lahub/rest/services/Landbase_Information/MapServer/layers?dynamicLayers=[{"id":1,"source":{"type":"mapLayer","mapLayerId":0}}]&f=pjson
 -------------------------------------------------
 
 
 ckan data.gov api test
-http://docs.ckan.org/en/latest/api/index.html
+https://docs.ckan.org/en/latest/api/index.html
 
 
-http://demo.ckan.org/api/3/action/tag_list
+https://demo.ckan.org/api/3/action/tag_list
 
-http://catalog.data.gov/api/3/action/package_list
+https://catalog.data.gov/api/3/action/package_list
 
 
-http://catalog.data.gov/api/3/action/package_search?fq=tags:economy
+https://catalog.data.gov/api/3/action/package_search?fq=tags:economy
 
 
 
 @@@@@@@@@@@@@@@@@@@@@
 url + path test
 
-http://localhost:3000/index/default?layer=Parcels&url_id=1
-http://localhost:3000/index/default?layer=Parcels&url_id=8&path=/Mapping/NavigateLA/MapServer
+https://localhost:3200/index/default?layer=Parcels&url_id=1
+https://localhost:3200/index/default?layer=Parcels&url_id=8&path=/Mapping/NavigateLA/MapServer
 
 
 
@@ -80,24 +282,24 @@ http://localhost:3000/index/default?layer=Parcels&url_id=8&path=/Mapping/Navigat
 https://cohegis.houstontx.gov/cohgispub/rest/services/PD/Government_Boundaries_wm/MapServer/0/query?outFields=*&where=1%3D1
 https://opendata.arcgis.com/datasets/7237db114eeb416cb481f4450d8a0fa6_0.geojson
 
-http://localhost:3000/index/default?layer=Houston%20City%20Limit&url_id=25&path=/PD/Government_Boundaries_wm/MapServer
+https://localhost:3200/index/default?layer=Houston%20City%20Limit&url_id=25&path=/PD/Government_Boundaries_wm/MapServer
 
 
-http://localhost:3000/index/default?layer=Houston+City+Limit&url_id=25&path=%2FPD%2FGovernment_Boundaries_wm%2FMapServer&center_lat=30.064702651913976&center_long=-95.46504526638233&center_zoom=16
+https://localhost:3200/index/default?layer=Houston+City+Limit&url_id=25&path=%2FPD%2FGovernment_Boundaries_wm%2FMapServer&center_lat=30.064702651913976&center_long=-95.46504526638233&center_zoom=16
 
-http://localhost:3000/index/default?layer=City%20Council%20Districts&url_id=25&path=/PD/Government_Boundaries_wm/MapServer
-http://localhost:3000/index/default?layer=City%20Council%20Districts&url_id=25&path=/PD/Government_Boundaries_wm/MapServer
-http://localhost:3000/index/default?layer=Zip%20Codes&url_id=25&path=/PD/Government_Boundaries_wm/MapServer
+https://localhost:3200/index/default?layer=City%20Council%20Districts&url_id=25&path=/PD/Government_Boundaries_wm/MapServer
+https://localhost:3200/index/default?layer=City%20Council%20Districts&url_id=25&path=/PD/Government_Boundaries_wm/MapServer
+https://localhost:3200/index/default?layer=Zip%20Codes&url_id=25&path=/PD/Government_Boundaries_wm/MapServer
 
 
-http://localhost:3000/socrata/googlemaps/default?url_id=11&layer_id=3zdd-cnc6&layer=HCIDLA&value={%22location_field%22:%22gps_coords%22}&center_lat=34.05025392986562&center_long=-118.27467015871417&center_zoom=13
+https://localhost:3200/socrata/googlemaps/default?url_id=11&layer_id=3zdd-cnc6&layer=HCIDLA&value={%22location_field%22:%22gps_coords%22}&center_lat=34.05025392986562&center_long=-118.27467015871417&center_zoom=13
 
 
 
 ***********************************************
 
 
-http://maps.lacity.org/arcgis/rest/services/Mapping?f=json
+https://maps.lacity.org/arcgis/rest/services/Mapping?f=json
 
 
 
@@ -110,19 +312,19 @@ https://data.seattle.gov/resource/3k2p-39jp.json?$where=within_circle(incident_l
 
 
 
-http://104.238.125.233:3000/socrata/googlemaps/default3?url_id=13&layer_id=wyzs-rv4g&layer=Parks+Zones&center_lat=40.74057168854819&center_long=-73.90276494550443&center_zoom=11
+https://104.238.125.233:3200/socrata/googlemaps/default3?url_id=13&layer_id=wyzs-rv4g&layer=Parks+Zones&center_lat=40.74057168854819&center_long=-73.90276494550443&center_zoom=11
 				
 				
-				http://localhost:3000/socrata/googlemaps/default?url_id=13&layer_id=xyye-rtrs&layer=Neighborhood+Names&center_lat=40.70656870347521&center_long=-73.94032877162533&center_zoom=11
-				
-				
-				
-				
-				http://104.238.125.233:3000/googlemaps/default?layer=Parcels&url_id=1
+				https://localhost:3200/socrata/googlemaps/default?url_id=13&layer_id=xyye-rtrs&layer=Neighborhood+Names&center_lat=40.70656870347521&center_long=-73.94032877162533&center_zoom=11
 				
 				
 				
-				http://navigatela.lacity.org/common/mapgallery/pdf/highest_groundwater_contours_and_boreholes/
+				
+				https://104.238.125.233:3200/googlemaps/default?layer=Parcels&url_id=1
+				
+				
+				
+				https://navigatela.lacity.org/common/mapgallery/pdf/highest_groundwater_contours_and_boreholes/
 				
 
 
@@ -140,25 +342,25 @@ http://104.238.125.233:3000/socrata/googlemaps/default3?url_id=13&layer_id=wyzs-
 
 
 
-http://maps.lacity.org/arcgis/rest/services/Mapping/NavigateLA/MapServer/333/query?
+https://maps.lacity.org/arcgis/rest/services/Mapping/NavigateLA/MapServer/333/query?
 
 
-http://maps.lacity.org/arcgis/rest/services/Mapping/NavigateLA/MapServer/333/1?f=pjson
+https://maps.lacity.org/arcgis/rest/services/Mapping/NavigateLA/MapServer/333/1?f=pjson
 
-http://maps.lacity.org/arcgis/rest/services/Mapping/NavigateLA/MapServer/333/query?f=pjson&returnCountOnly=true&where=TOOLTIP like '%5TH ST%'
-
-
-
-
-http://maps.lacity.org/arcgis/rest/services/Mapping/NavigateLA/MapServer/333/query?f=pjson&returnCountOnly=false&outFields=*&where=ASSETID = 1723459
+https://maps.lacity.org/arcgis/rest/services/Mapping/NavigateLA/MapServer/333/query?f=pjson&returnCountOnly=true&where=TOOLTIP like '%5TH ST%'
 
 
 
-http://maps.lacity.org/arcgis/rest/services/Mapping/NavigateLA/MapServer/333/query?f=pjson&returnCountOnly=true&where=cast(ASSETID as varchar) like '1723459'
+
+https://maps.lacity.org/arcgis/rest/services/Mapping/NavigateLA/MapServer/333/query?f=pjson&returnCountOnly=false&outFields=*&where=ASSETID = 1723459
 
 
 
-http://maps.lacity.org/arcgis/rest/services/Mapping/NavigateLA/MapServer/333/
+https://maps.lacity.org/arcgis/rest/services/Mapping/NavigateLA/MapServer/333/query?f=pjson&returnCountOnly=true&where=cast(ASSETID as varchar) like '1723459'
+
+
+
+https://maps.lacity.org/arcgis/rest/services/Mapping/NavigateLA/MapServer/333/
 
 
 
@@ -167,30 +369,30 @@ http://maps.lacity.org/arcgis/rest/services/Mapping/NavigateLA/MapServer/333/
  _url_returngeojson= _url + '/'+  _layer_id + '/query?returnGeometry=true&outSR=4326&f=pjson&outFields=*&geometryType=esriGeometryEnvelope&geometry='+ _envelope;
            
 
-localhost:3000/index/default/Los%20Angeles/boe%20permit?url=1&layer_id=333
+localhost:3200/index/default/Los%20Angeles/boe%20permit?url=1&layer_id=333
 
 
 
-localhost:3000/index/embed_default/Los%20Angeles/boe%20permit?url=http://maps.lacity.org/arcgis/rest/services/Mapping/NavigateLA/MapServer&layer_id=2&center_lat=34.049039&center_long=-118.246521&center_zoom=17
+localhost:3200/index/embed_default/Los%20Angeles/boe%20permit?url=https://maps.lacity.org/arcgis/rest/services/Mapping/NavigateLA/MapServer&layer_id=2&center_lat=34.049039&center_long=-118.246521&center_zoom=17
 
 
 
 
 
 
-http://localhost:3000/index/default/los%20angeles/1/boe%20permit/2
+https://localhost:3200/index/default/los%20angeles/1/boe%20permit/2
 
-http://nodejs1.glassgov.us/index/default/los%20angeles/1/boe%20permit/2
+https://nodejs1.glassgov.us/index/default/los%20angeles/1/boe%20permit/2
 
 
-http://localhost:3000/index/default/Los%20Angeles/boe%20permit?url=1&layer_id=333
+https://localhost:3200/index/default/Los%20Angeles/boe%20permit?url=1&layer_id=333
 
-http://agv1.glassgov.us/googlemaps/parcels-la/Los%20Angeles/parcels?url=1&layer_id=333
+https://agv1.glassgov.us/googlemaps/parcels-la/Los%20Angeles/parcels?url=1&layer_id=333
 
 Los angeles parcels
 
 
-http://localhost:3000/socrata/googlemaps/default?url_id=1&layer=abc-defg
+https://localhost:3200/socrata/googlemaps/default?url_id=1&layer=abc-defg
 
 
 https://data.lacity.org/resource/9w5z-rg2h.json?permit=12010-10000-02776
@@ -206,24 +408,24 @@ https://data.lacity.org/resource/9w5z-rg2h.json?$where=within_circle(lat_lon,34.
 
 la-building permit
 
-http://agv1.transparentgov.net/socrata/googlemaps/default?url_id=11&layer=9w5z-rg2h&value={"location_field":"lat_lon","socrata_name":"BuildingSaftyInspection","search_field_name":"permit-number","search_field":"permit"}
+https://agv1.transparentgov.net/socrata/googlemaps/default?url_id=11&layer=9w5z-rg2h&value={"location_field":"lat_lon","socrata_name":"BuildingSaftyInspection","search_field_name":"permit-number","search_field":"permit"}
 
 
 
-http://agv1.transparentgov.net/socrata/googlemaps/default?url_id=11&layer=yv23-pmwf&value={"location_field":"location_1","socrata_name":"BuildingSaftyPermit","search_field_name":"permit-number","search_field":"pcis_permit"}
+https://agv1.transparentgov.net/socrata/googlemaps/default?url_id=11&layer=yv23-pmwf&value={"location_field":"location_1","socrata_name":"BuildingSaftyPermit","search_field_name":"permit-number","search_field":"pcis_permit"}
 
 
 Chicago Building Permits
 
 
-http://agv1.transparentgov.net/socrata/googlemaps/default2?url_id=12&layer=ydr8-5enu&value={"location_field":"location","socrata_name":"BuildingPermit","search_field_name":"permit-number","search_field":"permit_"}
+https://agv1.transparentgov.net/socrata/googlemaps/default2?url_id=12&layer=ydr8-5enu&value={"location_field":"location","socrata_name":"BuildingPermit","search_field_name":"permit-number","search_field":"permit_"}
 
 
 Chicago Building Violations
 
 22u3-xenr
 
-http://agv1.transparentgov.net/socrata/googlemaps/default2?url_id=12&layer=22u3-xenr&value={"location_field":"location","socrata_name":"BuildingViolations","search_field_name":"Violations_ID","search_field":"id"}
+https://agv1.transparentgov.net/socrata/googlemaps/default2?url_id=12&layer=22u3-xenr&value={"location_field":"location","socrata_name":"BuildingViolations","search_field_name":"Violations_ID","search_field":"id"}
 
 
 Chicago Vacant and Abandoned Buildings 
@@ -233,17 +435,17 @@ kc9i-wq85
 Seattle Building Permits
 mags-97de
 
-http://agv1.transparentgov.net/socrata/googlemaps/default2?url_id=10&layer=mags-97de&value={"location_field":"location","socrata_name":"BuildingPermits","search_field_name":"permit-number","search_field":"application_permit_number"}
+https://agv1.transparentgov.net/socrata/googlemaps/default2?url_id=10&layer=mags-97de&value={"location_field":"location","socrata_name":"BuildingPermits","search_field_name":"permit-number","search_field":"application_permit_number"}
 
 76t5-zqzr
 
-http://agv1.transparentgov.net/socrata/googlemaps/default2?url_id=10&layer=76t5-zqzr&value={"location_field":"location_2","socrata_name":"BuildingPermits","search_field_name":"permit-number","search_field":"permitnum"}
+https://agv1.transparentgov.net/socrata/googlemaps/default2?url_id=10&layer=76t5-zqzr&value={"location_field":"location_2","socrata_name":"BuildingPermits","search_field_name":"permit-number","search_field":"permitnum"}
 
 
 Seattle Trade Permits
 txjd-pq99
 
-http://agv1.transparentgov.net/socrata/googlemaps/default2?url_id=10&layer=txjd-pq99&value={"location_field":"location","socrata_name":"TradePermits","search_field_name":"trade-permit-number","search_field":"application_permit_number"}
+https://agv1.transparentgov.net/socrata/googlemaps/default2?url_id=10&layer=txjd-pq99&value={"location_field":"location","socrata_name":"TradePermits","search_field_name":"trade-permit-number","search_field":"application_permit_number"}
 
 
 
@@ -251,7 +453,7 @@ New York Address Points
 tqin-d49h
 the_geom
 
-http://agv1.transparentgov.net/socrata/googlemaps/default2?url_id=13&layer=tqin-d49h&value={"location_field":"the_geom","socrata_name":"Address","search_field_name":"BIN-number","search_field":"bin"}
+https://agv1.transparentgov.net/socrata/googlemaps/default2?url_id=13&layer=tqin-d49h&value={"location_field":"the_geom","socrata_name":"Address","search_field_name":"BIN-number","search_field":"bin"}
 
 
 
@@ -268,11 +470,11 @@ the_geom
 building permits
 ipu4-2q9a
 
-http://agv1.transparentgov.net/socrata/googlemaps/default2?url_id=13&layer=tqin-d49h&value={"location_field":"the_geom","socrata_name":"Address","search_field_name":"BIN-number","search_field":"bin"}
+https://agv1.transparentgov.net/socrata/googlemaps/default2?url_id=13&layer=tqin-d49h&value={"location_field":"the_geom","socrata_name":"Address","search_field_name":"BIN-number","search_field":"bin"}
 
-http://agv1.transparentgov.net/socrata/googlemaps/relational?layer=Parcels&url_id=1&key={"socrata_url":2000,"gis_column_array":2010,"socrata_column_array":2011}&value={"socrata_id":"yv23-pmwf","socrata_name":"Building+and+Safety+Permit","search_field":"pcis_permit","search_field_name":"Permit-Number","location_field":"location_1"}
+https://agv1.transparentgov.net/socrata/googlemaps/relational?layer=Parcels&url_id=1&key={"socrata_url":2000,"gis_column_array":2010,"socrata_column_array":2011}&value={"socrata_id":"yv23-pmwf","socrata_name":"Building+and+Safety+Permit","search_field":"pcis_permit","search_field_name":"Permit-Number","location_field":"location_1"}
 
-http://agv1.transparentgov.net/socrata/googlemaps/relational-socrata?url_id=13&layer=tqin-d49h&value={"location_field":"the_geom","socrata_name":"BuildingPermits","search_field_name":"permit-sequence","search_field":"permit_si_no","gis_column_array":"bin","table_column_array":"bin__","socrata_id":"ipu4-2q9a"}
+https://agv1.transparentgov.net/socrata/googlemaps/relational-socrata?url_id=13&layer=tqin-d49h&value={"location_field":"the_geom","socrata_name":"BuildingPermits","search_field_name":"permit-sequence","search_field":"permit_si_no","gis_column_array":"bin","table_column_array":"bin__","socrata_id":"ipu4-2q9a"}
 
 
 
@@ -291,12 +493,12 @@ when use url, must provide center_lat, center_long, zoom
  
 Washington DC Zoning  
  
-http://agv1.transparentgov.net/googlemaps/default?layer=DCGIS.ZoningPly&url_id=28&path=/Zoning/MapServer
+https://agv1.transparentgov.net/googlemaps/default?layer=DCGIS.ZoningPly&url_id=28&path=/Zoning/MapServer
  https://localhost:3200/googlemaps/default?layer=DCGIS.ZoningPly&url_id=28&path=/Zoning/MapServer
  
  
  
-http://agv1.transparentgov.net/googlemaps/default?layer=DCGIS.ZoningPly&url=https://maps2.dcgis.dc.gov/dcgis/rest/services&path=/Zoning/MapServer&center_lat=38.907292&center_long=-77.03642000000002&center_zoom=17
+https://agv1.transparentgov.net/googlemaps/default?layer=DCGIS.ZoningPly&url=https://maps2.dcgis.dc.gov/dcgis/rest/services&path=/Zoning/MapServer&center_lat=38.907292&center_long=-77.03642000000002&center_zoom=17
  https://localhost:3200/googlemaps/default?layer=DCGIS.ZoningPly&url=https://maps2.dcgis.dc.gov/dcgis/rest/services&path=/Zoning/MapServer&center_lat=38.907292&center_long=-77.03642000000002&center_zoom=17
  
  

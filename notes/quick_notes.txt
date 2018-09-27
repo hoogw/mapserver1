@@ -18,11 +18,16 @@ prefer email
 
 $75/hr w2
 us citizen
+who is client?
 prefer email
 
 
 
-p
+$55/hr w2
+us citizen
+prefer email
+
+
 prefer email
 
 
@@ -58,6 +63,7 @@ email: huguowen@gmail.com
  cd C:/Users/engcid299/node/arcgis_viewer
  
  
+git add -A
 git commit -a -m ""
 git push origin master
 
@@ -84,7 +90,7 @@ sudo rm -rf XXXXX
 
 $ git add -A
 
-$ git commit -m "login"
+$ git commit -a  -m "login"
 
 ==================
 
@@ -105,7 +111,7 @@ git push origin master
 
 cd C:\Users\engcid299\node\arcgis_viewer
 code .
-nodemon --exec npm start
+--
 
 
 
