@@ -216,8 +216,9 @@ define([
                        
                        //console.log(config.get_center_zoom());
 
-                       console.log(config.get_mapOptions());
-                       console.log(config.get_operationalLayers());
+                     // fix bug, cause error, due to regular original config does not have these function. must comoment out, 
+                     //  console.log(config.get_mapOptions());
+                     //  console.log(config.get_operationalLayers());
                       //-------End  --** [1]  ** ---------  dynamic loading url and center_zoom, center_lat, center_long ----------
                
                
