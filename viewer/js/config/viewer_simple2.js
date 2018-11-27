@@ -1,7 +1,9 @@
 /*
  * 
+ * this js for feature layer only, url must specify layer id /xxx/FeatureServer/0
+ * 
  * viewer_simple1.js for dynamic type ( xxx/MapServer )
- * viewer_simple2.js for feature type ( xxx/FeatureServer )
+ * viewer_simple2.js for feature type ( xxx/FeatureServer/0 )
  * 
  * sample url
  * 
@@ -68,12 +70,13 @@ define([
     
     
     
-    var default_type = 'dynamic';
+    //var default_type = 'dynamic';
     
    //  http://docs.cmv.io/en/latest/configure/operationalLayers/#layer-types 
-   // var default_type = 'feature';
+    var default_type = 'feature';
     
     //var default_url = 'https://maps2.dcgis.dc.gov/dcgis/rest/services/Zoning/MapServer';
+    //var default_url = 'https://services5.arcgis.com/GfwWNkhOj9bNBqoJ/ArcGIS/rest/services/Bike_Routes/FeatureServer/0';
     var default_url = '';
     
     //var default_title = 'Washington DC Zoning';
@@ -81,9 +84,36 @@ define([
     
     var default_opacity = 0.5;
     
+    /* sample feature layer
+     * 
+     {
+            type: 'feature',
+            url: 'https://sampleserver6.arcgisonline.com/ArcGIS/rest/services/SF311/FeatureServer/0',
+            title: i18n.viewer.operationalLayers.sf311Incidents,
+            options: {
+                id: 'sf311Incidents',
+                opacity: 1.0,
+                visible: false,
+                outFields: ['req_type', 'req_date', 'req_time', 'address', 'district'],
+                mode: 0
+            },
+            layerControlLayerInfos: {
+                layerGroup: 'Grouped Feature Layers',
+                menu: [{
+                    topic: 'hello',
+                    label: 'Say Hello Custom',
+                    iconClass: 'fa fa-smile-o'
+                }]
+            }
+        }, 
+        
+ **/
+    
    
     
     var ___operational_layer = {
+        
+        
                 type: default_type,
                 //type: 'feature',
                 url: default_url,
@@ -91,7 +121,17 @@ define([
                 
                 options: {
                 
-                opacity: default_opacity
+                                opacity: default_opacity,
+
+
+                                //id: 'test1',
+
+                                //visible: false,
+                                visible: true,
+                                
+                                //outFields: ['req_type', 'req_date', 'req_time', 'address', 'district'],
+                               // mode: 0
+                
                 },
                 
                 
@@ -99,14 +139,7 @@ define([
                 layerControlLayerInfos: {
             
                     // layer control options
-                    noLegend: false,
-                    noZoom: false,
-                    swipe: true,
-                    swipeScope: true,
-                    expanded: true,
-                    sublayers: true,
-                    metadataUrl: false,
-                    allSublayerToggles	: true,
+                   //     layerGroup: 'Grouped Feature Layers'
                    
                 }
 

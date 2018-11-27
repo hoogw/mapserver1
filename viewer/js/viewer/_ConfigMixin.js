@@ -206,6 +206,9 @@ define([
                        
                        if (___title && ___title.length > 0)
                        {
+                          
+                          // fix bug
+                          ___title = decodeURI(___title);
                           config.set_title(___title);
                        }
                        
