@@ -84,6 +84,16 @@ define([
    
     
     var ___operational_layer = {
+        
+        
+        
+        // operationalLayers: Array of Layers to load on top of the basemap: valid 'type' options: 'dynamic', 'tiled', 'feature'.
+        // The 'options' object is passed as the layers options for constructor. Title will be used in the legend only. id's must be unique and have no spaces.
+        // 3 'mode' options: MODE_SNAPSHOT = 0, MODE_ONDEMAND = 1, MODE_SELECTION = 2
+        
+        
+        
+        
                 type: default_type,
                 //type: 'feature',
                 url: default_url,
@@ -91,7 +101,11 @@ define([
                 
                 options: {
                 
-                opacity: default_opacity
+                     opacity: default_opacity,
+                
+                      id: encodeURI(default_title),   //id's must be unique and have no spaces.
+                
+                      visible: true
                 },
                 
                 
