@@ -19,9 +19,9 @@ define({
                
             },
             titles: {
-                header: 'TransparentGov',
-                pageTitle: 'TransparentGov',
-                subHeader: 'TransparentGov'
+                header: 'Arcgis Server Map Viewer',
+                pageTitle: 'Arcgis Server Map Viewer',
+                subHeader: 'Arcgis Server Map Viewer'
             },
             widgets: {
                 bookmarks: 'Bookmarks',

@@ -27,9 +27,9 @@ define({
             sf311Incidents: '311 Incidentes de San Francisco'
         },
         titles: {
-            header: 'TransparentGov',
-            pageTitle: 'TransparentGov', // One configurable map viewer
-            subHeader: 'TransparentGov' // customize it at your will (the literal translation doesn’t sound good)
+            header: 'Arcgis Server Map Viewer',
+            pageTitle: 'Arcgis Server Map Viewer', // One configurable map viewer
+            subHeader: 'Arcgis Server Map Viewer' // customize it at your will (the literal translation doesn’t sound good)
         },
         widgets: {
             bookmarks: 'Marcadores',
