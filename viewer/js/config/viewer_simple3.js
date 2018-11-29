@@ -8,6 +8,19 @@
  * 
  * 
  * 
+ * arcgis server v < 10.2 no legend. 
+ * Legend (Image Service)
+ * The legend REST resource for an Image Service was added at version 10.2 of ArcGIS Server. 
+ * That server is still running version 10.05, you will not get legend. No legend. 
+ * https://developers.arcgis.com/rest/services-reference/legend-image-service-.htm
+ * Example 1: JSON response for an image service; default legend is returned.
+ * http://myserver:6080/arcgis/rest/services/onebandcolormap/ImageServer/legend?f=pjson
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
  * sample url
  * 
    http://localhost:10/mapserver1/viewer/?config=viewer_simple1&url=https://maps2.dcgis.dc.gov/dcgis/rest/services/Zoning/MapServer&title=Washington_DC_Zoning&zoom=14&lat=38.917292&long=-77.036420
