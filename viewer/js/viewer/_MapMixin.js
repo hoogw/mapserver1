@@ -133,6 +133,8 @@ define([
                 if (type) {
                     modules.push(type);
                 } else {
+                    
+                    console.log('Layer type "' + layer.type + '" is not supported: ')
                     returnWarnings.push('Layer type "' + layer.type + '" is not supported: ');
                 }
             }, this);
@@ -150,6 +152,12 @@ define([
 
         _initLayer: function (layer, Layer) {
             var l;
+            
+            console.log('_MapMixin.js Layer--->',Layer)
+            console.log('_MapMixin.js layer.url--->',layer.url)
+            
+            
+            
             if (layer.url) {
                 l = new Layer(layer.url, layer.options);
             } else {
